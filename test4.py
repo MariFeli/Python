@@ -61,18 +61,11 @@
 
 #Desde 5, imprimir los valores 5 a 20, pero excluye 12.
 
-y = 5
-while y < 20:
-    #if y==12:
-    #continue      
-    print(y)
-    y = y+1
-
-
-#Preguntar al usuario por números hasta que el usuario 
-#introduzca “q” para quit. Sumar los valores y imprimir el resultado final.
-    
-#x = input("Introducir un valor: 'q' para quit ")
+numero = 5
+while numero < 21:
+    if numero != 12:
+        print(numero)
+    numero += 1
 
 
     
