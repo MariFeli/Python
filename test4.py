@@ -66,6 +66,20 @@ while numero < 21:
     if numero != 12:
         print(numero)
     numero += 1
+#Un usuario de página web desea introducir las edades de los usuarios entre 18 y 65
+#las veces que sean necesarias para que no se metan datos incorrectos
+
+EdadUsuario = 18
+edad= int (input("¿Cuál es su edad? "))
+while edad >= 65 :
+    if edad >= EdadUsuario:
+        print("Su edad ha sido guardada con éxito")
+        break
+    else:
+        print("Por Favor introduce la edad correcta")
+        edad= int (input("¿Cuál es su edad? "))   
+print("End")
+
 
 
     
